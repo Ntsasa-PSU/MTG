@@ -1,0 +1,72 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+secrets/
+private/
+private_keys/
+*.key
+*.pem
+*.crt
+credentials.json
+token.json
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases and data files
+*.db
+*.sqlite
+*.sqlite3
+Cards.db
+mtg_data.db
+*.sqlite-journal
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.#*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Node.js (if used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Metadata
+.metadata/
+.metadata/*
