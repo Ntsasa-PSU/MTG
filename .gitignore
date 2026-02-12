@@ -70,3 +70,5 @@ yarn.lock
 # Metadata
 .metadata/
 .metadata/*
+Tagging/Cards.json
+.next/
